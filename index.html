@@ -1,0 +1,200 @@
+<!-- Understanding the HTML Elements as Boxes
+     Will make super easy for you to build complex Layouts as a beginner
+    
+    - Follow along the Video
+    - Complete This Project
+    - Build Some Projects on your Own
+
+    :) Happy Coding !!!
+    -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <!--========= Custom Css ======== -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- ==== Header Section === -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="brand">
+                    <img src="./img/logo.png" alt="">
+                </div>
+                <ul class="navlinks">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">All Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#"><img src="img/cart.png" alt=""></a></li>
+                </ul>
+            </nav>
+            <a href="#" class="menuBtn"><img src="./img/menu.png" alt=""></a>
+            <div class="header-content">
+                <div class="header-info">
+                    <div class="line"></div>
+                    <h3>Best Quality Products</h3>
+                    <h1>The Worlds Most Comfortable Clothing</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium iure temporibus minima sed
+                        natus consectetur dolor nesciunt et odit repellendus?</p>
+                    <button class="ctn">Get Started &#8594;</button>
+                </div>
+                <div class="header-img">
+                    <img src="./img/main.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==== Category  Section ==== -->
+    <section id="categories" class="container">
+        <div class="category">
+            <img src="./img/fashion-1.png" alt="">
+            <div class="category-content">
+                <p>Most Loved Design</p>
+                <h3>WOMENS FASHION</h3>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-content">
+                <p>Design Of The Week</p>
+                <h3>MENS Jacket & Cap</h3>
+            </div>
+            <img src="./img/fashion-2.png" alt="">
+        </div>
+
+        <div class="category">
+            <img src="./img/fashion-3.png" alt="">
+            <div class="category-content">
+                <p>Most Loved Design</p>
+                <h3>WOMENS FASHION</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Featured Products ======= -->
+
+    <section class="container" id="featured-protucts">
+        <div class="section-info">
+            <h1>Our Featured Products</h1>
+            <div class="line"></div>
+        </div>
+        <div class="products">
+            <div class="product">
+                <img src="./img/product-1.png" alt="">
+                <div class="product-info">
+                    <p>Men's Combo</p>
+                    <h3>Semi Formal Outfit Combo</h3>
+                    <h3>&#9733; &#9733; &#9733; &#9733; &#9734;</h3>
+                    <h3>$129.00</h3>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="./img/product-2.png" alt="">
+                <div class="product-info">
+                    <p>Men's Combo</p>
+                    <h3>Semi Formal Outfit Combo</h3>
+                    <h3>&#9733; &#9733; &#9733; &#9733; &#9734;</h3>
+                    <h3>$129.00</h3>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="./img/product-3.png" alt="">
+                <div class="product-info">
+                    <p>Men's Combo</p>
+                    <h3>Semi Formal Outfit Combo</h3>
+                    <h3>&#9733; &#9733; &#9733; &#9733; &#9734;</h3>
+                    <h3>$129.00</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--============  Offer ==============-->
+    <section id="offer">
+        <div class="container">
+            <img src="./img/offer.png" alt="">
+            <div class="offer-content">
+                <div class="line"></div>
+                <h1>Hurry Up! <br> Deal Of The Day</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam perspiciatis voluptatem sunt, voluptates aut dignissimos?</p>
+                <button class="ctn">Shop Now &#8594; </button>
+            </div>
+        </div>
+    </section>
+
+    <!--============  Featured Companies ==============-->
+    <section id="featured" class="container">
+        <img src="./img/featured-1.png" alt="">
+        <img src="./img/featured-2.png" alt="">
+        <img src="./img/featured-3.png" alt="">
+        <img src="./img/featured-4.png" alt="">
+    </section>
+
+    <!-- ============ Footer =============== -->
+    <footer>
+
+        <div class="footer-content">
+            <div class="col">
+                <img src="./img/logoFooter.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quas nobis laboriosam a adipisci repudiandae.</p>
+            </div>
+
+            <div class="col">
+                <h3>Company</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>All Product</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h3>Business</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>Our Team</li>
+                    <li>Affilate</li>
+                    <li>Customers</li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h3>Get In Touch</h3>
+                <ul>
+                    <li>info@Company.com</li>
+                    <li>05341234567</li>
+                    <li>Our Company, USA</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>copyright tefurkan</p>
+        </div>
+    </footer>
+
+    <!-- ============== Javascript for Mobile Menu =========== -->
+    <script>
+        const menuBtn = document.querySelector('.menuBtn')
+        const navlinks = document.querySelector('.navlinks')
+
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('active')
+        })
+
+    </script>
+</body>
+
+</html>
